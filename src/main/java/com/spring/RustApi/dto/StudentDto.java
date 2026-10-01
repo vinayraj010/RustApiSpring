@@ -1,13 +1,13 @@
 package com.spring.RustApi.dto;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-@AllArgsConstructor
 @Data
 public class StudentDto {
-    private String id;
-    private String name;
-    privateString email;
-
+     String id;
+     String name;
+     String email;
     public StudentDto(String d, String d1, String d2) {
+        this.id = d;
+        this.name = d1;
+        this.email = d2;
     }
 }

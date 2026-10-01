@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
     @GetMapping("/student")
     public StudentDto getStudent(){
-        return new StudentDto("d","d","d");
+        return new StudentDto("id","name","email");
     }
 }
